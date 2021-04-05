@@ -1,0 +1,41 @@
+
+.GuestReview{
+    position: relative;
+    top:5rem;
+    width:900px;
+    height:100vh;
+    margin: 0 auto;
+    background-image: url(https://images.pexels.com/photos/130154/pexels-photo-130154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-position: center;
+}
+.review{
+    position: relative;
+    top:25%;
+    left:30%;
+    width:400px;
+    height:400px;
+    background:#fff;
+    padding: 10px 20px;
+}
+.Item{
+    margin-top:4rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.Item h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    word-spacing: .2rem;
+    margin-bottom: 2rem;
+}
+.Item p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color:gray;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+}

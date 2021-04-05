@@ -1,0 +1,49 @@
+.rooms{
+    position: relative;
+    top:5rem;
+    width:900px;
+    height:100vh;
+    margin: 0 auto;
+    background-image: url(https://images.pexels.com/photos/3754594/pexels-photo-3754594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-attachment: fixed;
+    background-position: center;
+}
+.detail{
+    position: relative;
+    top:25%;
+    width:350px;
+    height:350px;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.detail h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    word-spacing: .2rem;
+}
+.detail p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    color:gray;
+}
+.room-btn{
+    background-color:transparent;
+    border:1px solid black;
+    color: black;
+    font-size: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition:.3s ease all;
+}
+.room-btn:hover{
+    background-color: black;
+    color:white;
+}
